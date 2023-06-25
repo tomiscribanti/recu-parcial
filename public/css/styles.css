@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+h1, h2, h3, h4, h5, h6, a, p, input, label, button, span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home h3 {
+    margin-top: 20px;
+}
+.div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu-index nav ul {
+    display: flex;
+    list-style: none;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.menu-index nav ul li a {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    transition: .4s;
+}
+.menu-index nav ul li a:hover {
+        color: #188639;
+}
+.ul-cliente {
+  list-style: none;
+  text-align: center;
+  margin: 20px auto;
+}
+.ul-cliente a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.ul-cliente h4 {
+  color: #000;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.nav-page a{
+text-align: center;
+padding: 0 8px;
+text-decoration: none;
+color: #000;
+}
+.nav-page {
+margin: 15px auto;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.forms label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.forms input {
+  height: 30px;
+}
+.forms button {
+  padding: 10px;
+  border: none;
+  background: antiquewhite;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.back {
+  text-decoration: none;
+  color: #000;
+}
+.product-img {
+  width: 100%;
+  margin-bottom: 17px;
+}
+.product-img img {
+  width: 200px;
+}
+.ul-landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+}
+.ul-landing li {
+  margin: 0 30px;
+}
+.ul-landing a {
+  text-decoration: none;
+  color: #000;
+  padding: 0 10px;
+}
